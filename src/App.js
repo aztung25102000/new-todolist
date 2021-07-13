@@ -23,6 +23,14 @@ function App() {
         <div> 
           <h3>{blogObj.title}</h3>
           <p>{blogObj.description}</p>
+          <div> 
+          <h3>{blogObj.title}</h3>
+          <p>{blogObj.description}</p>
+        </div>
+        <div> 
+          <h3>{blogObj.title}</h3>
+          <p>{blogObj.description}</p>
+        </div>
         </div>
 
         <h1> This is the first ReactJS app</h1>
