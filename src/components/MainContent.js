@@ -1,8 +1,16 @@
 import React from "react"
+import {data} from './books'
+import SpecificBook from './Book';
+
 
 function MainContent() {
     return (
-        <main>This is main section </main>
+        <section className='booklist'>
+            {data.map((book, index)=> {
+                return <SpecificBook key={book.id} {...book}></SpecificBook>;
+            })}
+
+        </section>
     );
 }
 

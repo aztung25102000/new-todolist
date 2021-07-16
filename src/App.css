@@ -1,11 +1,8 @@
 .App {
   text-align: center;
 }
-body {
-  margin: 0;
-}
 
-.navbar{
+.navbar {
   height: 100px;
   background-color: #333;
   color: whitesmoke;
@@ -15,4 +12,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
